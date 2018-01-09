@@ -1,0 +1,57 @@
+.about{
+  background-color: $grey;
+  .header{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background-color: #2F4F4F;
+    .text-imp-1{
+      width: 24%;
+      display: inline-block;
+      color: $red;
+      font-size: 14px;
+    }
+    .links{
+      display: inline-block;
+      margin-left: 10px;
+
+    }
+  }
+  .body{
+    width: 45%;
+    float: left;
+    .text-imp-1{
+      color: $red;
+      padding-bottom: 20px;
+    }
+    .text-1{
+      display: block;
+      padding-top: 20px;
+    }
+    .img{
+      display: block;
+      width: 60%;
+      height: 40%;
+    }
+  }
+  .aside{
+    float: right;
+    width: 50%;
+    display: inline-block;
+    .line{
+    }
+    .text-imp-1{
+      margin-left: 60px;
+      color: $red;
+      padding-bottom: 20px
+    }
+    .text-1{
+      width: 30%;
+      padding-bottom: 20px;
+      display: block;
+      color: $red;
+      margin-left: 60px;
+    }
+  }
+}
